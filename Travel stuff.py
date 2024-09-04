@@ -8,7 +8,6 @@ for index in range(3):
     travel_agent.append(travelagent)
     booking_number.append(bookingnumber)
     dates.append(date)
-print("hello world")
 print(travel_agent)
 print(booking_number)
 print(dates)
