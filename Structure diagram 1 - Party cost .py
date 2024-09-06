@@ -8,7 +8,8 @@ No_adults=int(input("How many adults will there be? "))
 No_children=int(input("How many children will there be? "))
 dietrequirements=[]
 for index in range(No_children):
-    requirements=input("Are there any dietary requirements for child ",index)
+    message="Are there any dietary requirements for child",index+1
+    requirements=input(message)
     dietrequirements.append(requirements)
 if ((No_adults+No_children)>20):
     venue=50
